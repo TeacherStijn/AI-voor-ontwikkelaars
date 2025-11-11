@@ -1,15 +1,13 @@
-# Summarize on multiple levels exercise
-## We gaan de commitregels groeperen en breaking changes laten markeren
+# Changelogs en release notes
+## Release notes uit commits, PR titels en labels met herkenning van breaking changes.
 
 ### Voorbeeldprompt indien je -geen- script gebruikt:
 Groepeer commitregels in Features, Fixes, Docs, Chore en markeer Breaking changes. Schrijf heldere release notes in het Nederlands met een korte samenvatting bovenaan.
 
 ### Open Powershell (als administrator)
-> <windows-key>
+> [windows-key]-[R]
 >
-> Powershell
->
-> Run as administrator
+> Cmd
 
 ### Navigeer naar je project directory 
 > cd <pad naar project>

@@ -14,10 +14,9 @@ function collect(dir, exts) {
   return out;
 }
 
-const code = collect("src", [".js", ".ts", ".tsx"]).slice(0, 80);
+const code = collect(".", [".js", ".html"]).slice(0, 80);
 const tests = fs.existsSync("test") ? collect("test", [".js", ".ts"]) : [];
-const ref = fs.existsSync("docs") ? collect("docs", [".md", ".html"]) : [];
-const corpus = [...code, ...tests, ...ref].map(f => `FILE ${f}\n${fs.readFileSync(f, "utf8")}`).join("\n\n");
+const corpus = [...code, ...tests].map(f => `FILE ${f}\n${fs.readFileSync(f, "utf8")}`).join("\n\n");
 
 const system = "Je schrijft kernachtige technische documentatie in Markdown. Nooit speculeren. Verwijs met relative links alleen als het doelbestand bestaat.";
 const user = `
