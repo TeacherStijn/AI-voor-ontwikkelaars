@@ -12,7 +12,6 @@ const commits = sh(`git log ${lastTag}..HEAD --pretty=format:"%h %s"`);
 const user = `
 Groepeer deze commitregels in Features Fixes Docs Chore en markeer Breaking changes expliciet.
 Schrijf release notes in helder Nederlands met een korte samenvatting bovenaan.
-Voeg bij elk item de korte SHA toe.
 `;
 
 const res = await client.responses.create({
