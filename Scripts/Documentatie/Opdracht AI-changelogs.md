@@ -4,7 +4,7 @@
 ### Voorbeeldprompt indien je -geen- script gebruikt:
 Groepeer commitregels in Features, Fixes, Docs, Chore en markeer Breaking changes. Schrijf heldere release notes in het Nederlands met een korte samenvatting bovenaan.
 
-### Open Powershell (als administrator)
+### Open Commandline (als administrator)
 > [windows-key]-[R]
 >
 > Cmd
