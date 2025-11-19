@@ -1,5 +1,15 @@
 # Generating basic HTML documentation
 
+### Open commandline (als administrator)
+> [windows-key]-[R]
+>
+> Cmd
+
+### Navigeer naar je project directory 
+```
+cd <pad naar project>
+```
+
 ### Installeer globaal de JSDoc documentatie tool
 > npm install -g jsdoc
 
