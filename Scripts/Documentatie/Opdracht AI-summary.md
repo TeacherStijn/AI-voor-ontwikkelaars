@@ -22,7 +22,12 @@
 > Cmd
 
 ### Navigeer naar je project directory 
-> cd <pad naar project>
+```
+cd <pad naar project>
+```
+
+### Prepareer de scripts in deze directory door te draaien:
+> npm install
 
 ### Stel je OpenAI key in, let op: geen spatie voor of na het = teken ;)
 > set OPENAI_API_KEY=JOUW_KEY
