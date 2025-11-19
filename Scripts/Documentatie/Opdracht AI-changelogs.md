@@ -10,7 +10,9 @@ Groepeer commitregels in Features, Fixes, Docs, Chore en markeer Breaking change
 > Cmd
 
 ### Navigeer naar je project directory 
-> cd <pad naar project>
+```
+cd <pad naar project>
+```
 
 ### Zet een starttag zodat de tool weet waarvan tot waartoe:
 > git tag v0.0.0
